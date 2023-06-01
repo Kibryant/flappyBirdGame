@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Oswald";
+    src: url("../assets/Oswald-Regular.ttf") format("truetype");
+}
+body {
+    background-color: rgb(135, 206, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Oswald';
+    text-align: center;
+}
